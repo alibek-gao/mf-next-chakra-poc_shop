@@ -27,7 +27,7 @@ export default function Search() {
           fontSize={{ base: 'xl', sm: '2xl' }}
           textAlign={'center'}
           mb={5}>
-          Search for products
+          Search for products changed
         </Heading>
         <Stack
           direction={{ base: 'column', md: 'row' }}
