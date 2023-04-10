@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import { SearchIcon } from '@chakra-ui/icons';
 
-export default function Search() {
+export default function Search()  {
   return (
     <Flex
       minH={'30vh'}
@@ -27,7 +27,7 @@ export default function Search() {
           fontSize={{ base: 'xl', sm: '2xl' }}
           textAlign={'center'}
           mb={5}>
-          Search for products in our store
+          Search for products
         </Heading>
         <Stack
           direction={{ base: 'column', md: 'row' }}
