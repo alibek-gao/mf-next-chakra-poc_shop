@@ -27,7 +27,7 @@ export default function Search()  {
           fontSize={{ base: 'xl', sm: '2xl' }}
           textAlign={'center'}
           mb={5}>
-          Search for products
+          React Amsterdam Spring
         </Heading>
         <Stack
           direction={{ base: 'column', md: 'row' }}
