@@ -20,6 +20,9 @@ const nextConfig = {
         exposes: {
           './Featured': './pages/featured.js',
           './Search': './pages/search.js',
+          './test/one': './pages/test/one.js',
+          './test/two': './pages/test/two.js',
+          './test/three': './pages/test/three.js',
         },
         shared: {
           '@emotion/': {
@@ -32,6 +35,9 @@ const nextConfig = {
             requiredVersion: false,
             singleton: true,
           },
+        },
+        extraOptions: {
+          exposePages: true
         },
       })
     );
